@@ -1,0 +1,46 @@
+
+.bright{
+    filter: brightness(60%);
+}
+.orador {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 0.5rem;
+    width: 15em;
+}
+.orador:hover {
+    box-shadow: 0 0 10px grey;
+}
+.orador img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.contenido {
+    padding: 1rem;
+}
+.orador a {
+    padding: .3rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: .8rem;
+}
+.autor {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.photo {
+    animation: desvanecer 5s;
+    height: 400px !important;
+    width: 100%;
+}
+.img-paisaje {
+    animation: desvanecer 5s;
+    height: 400px !important;
+    width: 50%;
+
+    @media (max-width:991px) {
+        width: 100% !important;
+}
+
+}
+
