@@ -2,8 +2,7 @@
 <html lang="en">
   <head>
           <meta charset="UTF-8">
-          <meta http-equiv="X-UA
-          -Compatible" content="IE-edge">
+          <meta http-equiv="X-UA-Compatible" content="IE-edge">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Integrador</title>
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -20,7 +19,7 @@
                <img src="img/codoacodo.png" alt="logo" width="150">
                <a class="navbar-brand fw-bold text-white fs-4" href="#">Conf Bs As</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
+               <span class="navbar-toggler-icon bg-success"></span>
           </button>
 
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -49,14 +48,15 @@
                  <div class="card text-bg-dark card text-end">
                         <img src="img/edificio-1.jpg" class="card-img bright" alt="calle">
                              <div class="card-img-overlay">
-                               <div class="container">
+                                <div class="container text-lg-end text-center"> 
                                   <h2 class="card-title">Conf Bs As</h2>
                                   <p class="card-text fs-5">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad,
                                                             el conocimiento y experiencia de los expertos que estan creando el futuro de internet. 
                                                             Ven a conocer a miembros del evento, a otros estudiantes de codo a codo y los oradores de primer nivel que tenemos para ti.
                                                             Te esperamos!</p>
+                                  <form action="ticket.html" method="get" target="_blank">
                                   <button class="btn btn-outline-light fw-bold fs-5 text">Quiero ser orador</button>
-                                  <button class="btn btn-outline-success fw-bold fs-5 text">Comprar tickets</button>
+                                  <button class="btn btn-outline-success fw-bold fs-5 text" type="submit">Comprar tickets</button>
                                 </div>
                             </div>
                  </div>
@@ -66,7 +66,7 @@
                          <div class="fs-4 fw-bold">ORADORES</div>
                </div>
 
-       <div class="d-flex justify-content-lg-center">
+       <div class="d-flex flex-wrap justify-content-lg-center gap-4">
                <div class="orador">
                   <img src="img/steve.jpg" alt="Steve">
                     <div class="contenido">
